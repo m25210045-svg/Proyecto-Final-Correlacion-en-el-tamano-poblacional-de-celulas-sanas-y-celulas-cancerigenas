@@ -59,6 +59,4 @@ Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simul
 ## Referencias
 \[1] P. A. Valle, Syllabus para Gemelos Digitales, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
-\[2] Itik, M., & Banks, S. P. (2010). Chaos in a three-dimensional cancer model. international Journal of bifurcation and chaos, 20(01), 71-79. https://doi.org/10.1142/S0218127410025417
-
-\[3] Bryan, Kurt. Differential equations: A toolbox for modeling the world. Simiode, 2022. Permalink: https://www.simiode.org/resources/8307 
+\[2] American Cancer Society. Terapia de células CAR-T y sus efectos secundarios. Cancer.org, 2022. Permalink: https://www.cancer.org/es/cancer/como-sobrellevar-el-cancer/tipos-de-tratamiento/inmunoterapia/terapia-de-celulas-t.html 

@@ -54,3 +54,10 @@ Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simul
 \[1] P. A. Valle, Syllabus para Gemelos Digitales, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
 \[2] American Cancer Society. Terapia de células CAR-T y sus efectos secundarios. Cancer.org, 2022. Permalink: https://www.cancer.org/es/cancer/como-sobrellevar-el-cancer/tipos-de-tratamiento/inmunoterapia/terapia-de-celulas-t.html 
+
+
+Biorender
+Agregar modelo
+Explicar modelo
+Explicar variable de control
+Sacar conclusiones

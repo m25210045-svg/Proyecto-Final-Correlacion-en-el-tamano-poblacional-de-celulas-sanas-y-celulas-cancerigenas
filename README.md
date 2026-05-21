@@ -4,6 +4,7 @@
 
 ## Información de la estudiante
 Oscar González Ramírez \[M25210050]; M25210050@tectijuana.edu.mx
+
 Vincent Alejandro Villela Salinas \[M25210045]; M25210045@tectijuana.edu.mx
 
 Gemelos Digitales

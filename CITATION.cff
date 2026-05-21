@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Matlab
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Oscar
+    family-names: Gonzales Ramirez
+    email: M25210045@tectijuana.edu.mx
+    affiliation: Tecnológico Nacional de México
+  - given-names: Vincent Alejandro
+    family-names: Villela Salinas
+    email: M25210045@tectijuana.edu.mx
+    affiliation: Tecnológico Nacional de México
+repository-code: 'https://github.com/m25210045-svg/ProyectoGD'
+keywords:
+  - Sistema no lineal
+  - Células sanas
+  - Células cancerígenas
+  - Simulaciones numéricas
+  - Tamaño poblacional células
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-05-19'

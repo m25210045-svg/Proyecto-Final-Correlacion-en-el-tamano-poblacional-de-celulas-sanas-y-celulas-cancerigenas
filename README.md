@@ -62,8 +62,7 @@ Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simul
 \[2] American Cancer Society. Terapia de células CAR-T y sus efectos secundarios. Cancer.org, 2022. Permalink: https://www.cancer.org/es/cancer/como-sobrellevar-el-cancer/tipos-de-tratamiento/inmunoterapia/terapia-de-celulas-t.html 
 
 
-Biorender
-Agregar modelo
-Explicar modelo
-Explicar variable de control
-Sacar conclusiones
+1. Biorender
+2. Explicar modelo
+3. Explicar variable de control
+4. Sacar conclusiones

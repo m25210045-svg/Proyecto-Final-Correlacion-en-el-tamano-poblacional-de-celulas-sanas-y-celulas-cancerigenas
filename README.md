@@ -29,7 +29,7 @@ Se debe escoger uno de estos 3 conjuntos de datos, escoger un contexto para el c
 
         dx/dt = rho1*x + rho2*x*y*z - rho3*x^{3} - rho4*x^{2}*y + u;	(1)
         dy/dt = rho5*y + rho6*y^{2}*z + rho7*y^{2}*z^{2} - rho8*y*z;	(2)
-        dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};	(3)
+        dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};        	(3)
 
 *Párrafo para describir las ecuaciones*
 

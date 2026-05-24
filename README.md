@@ -27,6 +27,10 @@ A continuación se presenta una tabla de datos que muestra la dinámica de tres 
 
 Se debe escoger uno de estos 3 conjuntos de datos, escoger un contexto para el comportamiento de sus variables y aplicar las técnicas de modelado y análisis matemático visto a lo largo de la materia para encontrar el sistema de ecuaciones correspondientes a dicho conjunto y dicho contexto.
 
+        dx = r1*x*(1 - b1*x) - a12*x*y - a13*x*z; 	(1)
+        dy = r2*y*(1 - b2*y) - a21*x*y;			(2)
+        dz = (r3 - a31)*x*z - d3*z + rho;		(3)
+
 Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simulaciones numéricas; Tamaño poblacional células.
 
 ## Actividades a realizar

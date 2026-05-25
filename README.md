@@ -46,7 +46,9 @@ Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simul
 
 Se seleccionó el segundo conjunto de datos, los cuales fueron interpretados como la cantidad de nutrientes que eran repartidas y absorbidas por dos poblaciones de células dentro de un organismo. La representación del sistema se observa a continuación con la figura hecha en BioRender.
 
-<img width="720" height="504" alt="Modelo_Biologico_Proyecto (1)" src="https://github.com/user-attachments/assets/e5ab358b-79ad-4474-8e4f-917cc9469482" />
+<p align="center">
+<img width="720" height="504" alt="Modelo_Biologico_Proyecto (1)" src="https://github.com/user-attachments/assets/e5ab358b-79ad-4474-8e4f-917cc9469482">
+</p>
 
 A partir de los datos brindados en la tabla que corresponden con el segundo conjunto, se utilizó Eureqa para obtener las siguientes ecuaciones que corresponden con este sistema:
 

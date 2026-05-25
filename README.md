@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=m25210045-svg/ProyectoGD)
 
-# Proyecto: Correlación en el tamaño poblacional de células sanas y células cancerígenas con respecto a sus tasas de absorción de nutrientes.
+# Proyecto Final: Correlación en el tamaño poblacional de células sanas y células cancerígenas con respecto a sus tasas de absorción de nutrientes.
 
 ## Información de la estudiante
 Oscar González Ramírez \[M25210050]; M25210050@tectijuana.edu.mx
@@ -66,7 +66,7 @@ La ecuación $\dot{x}$ representa la tasa de absorción de nutrientes por parte 
 Por ello, dentro de la ecuación $\dot{x}$ se incluye una variable de control $u$ en la forma de una rampa unitaria. Para esto, se tomó como referencia el tratamiento contra el cáncer a partir del uso de células CAR-T, en donde se toma una pequeña cantidad de células T por parte del organismo infectado, se modifican géneticamente en un laboratorio para que puedan detectar, atacar y destruir células cancerígenas; se múltiplican en masa y se inyectan de vuelta en el organismo para superar en números a la población de células cancerígenas de golpe, atacándolas mientras que, a la vez, reducen la cantidad de nutrientes que tienen disponibles para seguir creciendo en tamaño poblacional. Es por este motivo que en el modelo matemático implementado se refleja como una señal de rampa, ya que se incrementa gradualmente las dosis de células modificadas en el organismo para observar su comportamiento conforme pasan los días, resultando en un intercambio notable entre los tamaños de las células sanas con respecto a las células cancerígenas pasados los 70 días; así como una diferencia en la cantidad de nutrientes restantes en dicho organismo debido a estos cambios.
 
 ## Conclusiones
-
+A partir de todo lo visto durante el semestre en la materia de Gemelos Digitales se logró tomar un conjunto de datos biólogicos provenientes de una base de una base de datos, para este trabajo siendo el segundo conjunto de datos provenientes de la tabla, y se logró modelar un sistema de ecuaciones no lineales que se aproxima al comportamiento de las tres variables que componen al conjunto entre sí, e incluso predecir cuál será su comportamiento hasta el doble del tiempo previsto en la base de datos. Además, utilizando como referencia al tratamiento contra el cáncer por medio de células CAR-T, se pudo implementar una señal de control en el sistema de tal manera que logró modificar las poblaciones celulares de células sanas y cancerígenas dentro del organismo a lo largo de los 70 días del tiempo designado, a partir de las gráficas resultantes del sistema antes y después de aplicarse dicha señal. 
 
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
@@ -80,9 +80,3 @@ Por ello, dentro de la ecuación $\dot{x}$ se incluye una variable de control $u
 \[1] P. A. Valle, Syllabus para Gemelos Digitales, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
 \[2] American Cancer Society. Terapia de células CAR-T y sus efectos secundarios. Cancer.org, 2022. Permalink: https://www.cancer.org/es/cancer/como-sobrellevar-el-cancer/tipos-de-tratamiento/inmunoterapia/terapia-de-celulas-t.html 
-
-
-1. Biorender
-2. Explicar modelo
-3. Explicar variable de control
-4. Sacar conclusiones

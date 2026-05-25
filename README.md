@@ -55,7 +55,7 @@ Se seleccionó el segundo conjunto de datos, los cuales fueron interpretados com
 
 A partir de los datos brindados en la tabla que corresponden con el segundo conjunto, se utilizó Eureqa para obtener las siguientes ecuaciones que corresponden con este sistema:
 $$
-\dot{x} = \rho_1*x + \rho_2*x*y*z - \rho_3*x^{3} - \rho_4*y*x^{2}
+\dot{x} = \rho_1 * x + \rho_2 * x * y * z - \rho_3 * x^{3} - \rho_4 * y * x^{2}
 $$
 donde cada rho representa un número real y son los parámetros para el sistema de ecuaciones, y u es la variable de control.
 

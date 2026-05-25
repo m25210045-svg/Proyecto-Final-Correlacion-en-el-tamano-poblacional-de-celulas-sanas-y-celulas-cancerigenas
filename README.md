@@ -27,11 +27,15 @@ A continuación se presenta una tabla de datos que muestra la dinámica de tres 
 
 Se debe escoger uno de estos 3 conjuntos de datos, escoger un contexto para el comportamiento de sus variables y aplicar las técnicas de modelado y análisis matemático visto a lo largo de la materia para encontrar el sistema de ecuaciones correspondientes a dicho conjunto y dicho contexto.
 
+Se seleccionó el segundo conjunto de datos, y a partir de los datos brindados en la tabla, mediante Eureqa se obtuvieron las siguientes ecuaciones del sistema:
+
         dx/dt = rho1*x + rho2*x*y*z - rho3*x^{3} - rho4*x^{2}*y + u;        	(1)
         dy/dt = rho5*y + rho6*y^{2}*z + rho7*y^{2}*z^{2} - rho8*y*z;        	(2)
         dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};        	(3)
 
-*Párrafo para describir las ecuaciones*
+donde cada rho representa un número real, y u es la variable de control, definida por una rampa con un factor de crecimiento de 1/4.
+
+*Explicar el sistema de ecuaciones en el contexto del proyecto para complementar el párrafo anterior*
 
 Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simulaciones numéricas; Tamaño poblacional células.
 

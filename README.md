@@ -23,7 +23,10 @@ En el contexto de sistemas dinámicos que describen sistemas biológicos o fisio
 
 ## Objetivo y descripción del sistema
 A continuación se presenta una tabla de datos que muestra la dinámica de tres conjuntos de variables biólogicas y su evolución con el tiempo, medido en días.
-<img width="1256" height="517" alt="base de datos" src="https://github.com/user-attachments/assets/ba455cc8-2e96-4153-9824-ae208b655554" />
+
+<p align="center">
+<img width="1256" height="517" alt="base de datos" src="https://github.com/user-attachments/assets/ba455cc8-2e96-4153-9824-ae208b655554">
+</p>
 
 Se debe escoger uno de estos 3 conjuntos de datos, escoger un contexto para el comportamiento de sus variables y aplicar las técnicas de modelado y análisis matemático visto a lo largo de la materia para encontrar el sistema de ecuaciones correspondientes a dicho conjunto y dicho contexto.
 
@@ -51,11 +54,12 @@ Se seleccionó el segundo conjunto de datos, los cuales fueron interpretados com
 </p>
 
 A partir de los datos brindados en la tabla que corresponden con el segundo conjunto, se utilizó Eureqa para obtener las siguientes ecuaciones que corresponden con este sistema:
-
+$$
+        \frac{dx}{dt} = \rho_1*x + \rho_2*x*y*z - \rho_3*x^{3} - \rho_4*x^{2}*y
         dx/dt = rho1*x + rho2*x*y*z - rho3*x^{3} - rho4*x^{2}*y + u;        	(1)
         dy/dt = rho5*y + rho6*y^{2}*z + rho7*y^{2}*z^{2} - rho8*y*z;        	(2)
         dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};        	(3)
-
+$$
 donde cada rho representa un número real y son los parámetros para el sistema de ecuaciones, y u es la variable de control.
 
 La ecuación (1) representa la tasa de absorción de nutrientes por parte de la población de células sanas en el organismo, la ecuación (2) a la tasa de agotamiento de los nutrientes disponibles dentro del organismo y la ecuación (3) es la tasa de absorción de nutrientes por parte de la población de células cancerígenas. Conforme el sistema opera, la cantidad de nutrientes absorbidos por ambas poblaciones aumenta conforme la cantidad de nutrientes disponibles disminuye; notando que la población de células cancerígenas consume más nutrientes que la población de células sanas, infireindo a que conforme pasa el tiempo la población de células cancerígenas crece a una velocidad más alta que las células sanas. Notesé que, a partir de la tabla de datos, la cantidad de nutrientes en la células cancerígenas se reduce un poco mientras que la de células sanas aumenta un poco cerca de cuando ya casi se agotaron todos los nutrientes disponibles en el organismo. Por lo que, si se aplica una técnica que permita reducir la cantidad de nutrientes disponibles para estas células, debería ser posible reducir su población celular gradualmente.

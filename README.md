@@ -54,7 +54,7 @@ Se seleccionó el segundo conjunto de datos, los cuales fueron interpretados com
 </p>
 
 A partir de los datos brindados en la tabla que corresponden con el segundo conjunto, se utilizó Eureqa para obtener las siguientes ecuaciones que corresponden con este sistema:
-$$\dot{x} = \rho_1 * x + \rho_2 * x * y * z - \rho_3 * x^{3} - \rho_4 * y * x^{2}$$
+$$\dot{x} = \rho_1 x + \rho_2 xyz - \rho_3 x^{3} - \rho_4 yx^{2}$$
 donde cada rho representa un número real y son los parámetros para el sistema de ecuaciones, y u es la variable de control.
 
 La ecuación (1) representa la tasa de absorción de nutrientes por parte de la población de células sanas en el organismo, la ecuación (2) a la tasa de agotamiento de los nutrientes disponibles dentro del organismo y la ecuación (3) es la tasa de absorción de nutrientes por parte de la población de células cancerígenas. Conforme el sistema opera, la cantidad de nutrientes absorbidos por ambas poblaciones aumenta conforme la cantidad de nutrientes disponibles disminuye; notando que la población de células cancerígenas consume más nutrientes que la población de células sanas, infireindo a que conforme pasa el tiempo la población de células cancerígenas crece a una velocidad más alta que las células sanas. Notesé que, a partir de la tabla de datos, la cantidad de nutrientes en la células cancerígenas se reduce un poco mientras que la de células sanas aumenta un poco cerca de cuando ya casi se agotaron todos los nutrientes disponibles en el organismo. Por lo que, si se aplica una técnica que permita reducir la cantidad de nutrientes disponibles para estas células, debería ser posible reducir su población celular gradualmente.

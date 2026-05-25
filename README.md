@@ -57,7 +57,7 @@ A partir de los datos brindados en la tabla que corresponden con el segundo conj
 
 $$\dot{x} = \rho_1 x + \rho_2 xyz - \rho_3 x^{3} - \rho_4 yx^{2}$$
 $$\dot{x} = \rho_5 y + \rho_6 zy^{2} + \rho_7 y^{2}z^{2} - \rho_8 yz$$
-$$\dot{x} = \rho_9 z + \rho_10 z^{3} - \rho_11 z^{2} - \rho_4 xz^{3}$$
+$$\dot{x} = \rho_9 z + \rho_{10} z^{3} - \rho_{11} z^{2} - \rho_{12} xz^{3}$$
 
 Donde cada rho representa un número real y son los parámetros para el sistema de ecuaciones, y u es la variable de control.
 

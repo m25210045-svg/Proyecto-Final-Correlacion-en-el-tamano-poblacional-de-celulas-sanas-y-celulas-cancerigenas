@@ -55,10 +55,7 @@ Se seleccionó el segundo conjunto de datos, los cuales fueron interpretados com
 
 A partir de los datos brindados en la tabla que corresponden con el segundo conjunto, se utilizó Eureqa para obtener las siguientes ecuaciones que corresponden con este sistema:
 $$
-        \frac{dx}{dt} = \rho_1*x + \rho_2*x*y*z - \rho_3*x^{3} - \rho_4*x^{2}*y
-        dx/dt = rho1*x + rho2*x*y*z - rho3*x^{3} - rho4*x^{2}*y + u;        	(1)
-        dy/dt = rho5*y + rho6*y^{2}*z + rho7*y^{2}*z^{2} - rho8*y*z;        	(2)
-        dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};        	(3)
+\dot{x} = \rho_1*x + \rho_2*x*y*z - \rho_3*x^{3} - \rho_4*y*x^{2}
 $$
 donde cada rho representa un número real y son los parámetros para el sistema de ecuaciones, y u es la variable de control.
 

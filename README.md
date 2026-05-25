@@ -27,16 +27,6 @@ A continuación se presenta una tabla de datos que muestra la dinámica de tres 
 
 Se debe escoger uno de estos 3 conjuntos de datos, escoger un contexto para el comportamiento de sus variables y aplicar las técnicas de modelado y análisis matemático visto a lo largo de la materia para encontrar el sistema de ecuaciones correspondientes a dicho conjunto y dicho contexto.
 
-Se seleccionó el segundo conjunto de datos, y a partir de los datos brindados en la tabla, mediante Eureqa se obtuvieron las siguientes ecuaciones del sistema:
-
-        dx/dt = rho1*x + rho2*x*y*z - rho3*x^{3} - rho4*x^{2}*y + u;        	(1)
-        dy/dt = rho5*y + rho6*y^{2}*z + rho7*y^{2}*z^{2} - rho8*y*z;        	(2)
-        dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};        	(3)
-
-donde cada rho representa un número real, y u es la variable de control, definida por una rampa con un factor de crecimiento de 1/4.
-
-*Explicar el sistema de ecuaciones en el contexto del proyecto para complementar el párrafo anterior*
-
 Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simulaciones numéricas; Tamaño poblacional células.
 
 ## Actividades a realizar
@@ -51,6 +41,27 @@ Palabras clave: Sistema no lineal; Células sanas; Células cancerígenas; Simul
 9. Implementar en MATLAB la variable de control y graficar el sistema de ecuaciones considerando la variable.
 10. Realizar el análisis matemático en Scientific WorkPlace, reportando el modelo matemático, el análisis de positividad del sistema, los puntos de equilibrio estables y estabilidad local.
 11. Diseñar un diagrama biológico sobre la dinámica del sistema y la interacción entre sus variables con las figuras de https://bioart.niaid.nih.gov/ o https://www.biorender.com/.
+
+## Desarrollo
+
+Se seleccionó el segundo conjunto de datos, los cuales fueron interpretados como la cantidad de nutrientes que eran repartidas y absorbidas por dos poblaciones de células dentro de un organismo. La representación del sistema se observa a continuación con la figura hecha en BioRender.
+
+<img width="720" height="504" alt="Modelo_Biologico_Proyecto (1)" src="https://github.com/user-attachments/assets/e5ab358b-79ad-4474-8e4f-917cc9469482" />
+
+A partir de los datos brindados en la tabla que corresponden con el segundo conjunto, se utilizó Eureqa para obtener las siguientes ecuaciones que corresponden con este sistema:
+
+        dx/dt = rho1*x + rho2*x*y*z - rho3*x^{3} - rho4*x^{2}*y + u;        	(1)
+        dy/dt = rho5*y + rho6*y^{2}*z + rho7*y^{2}*z^{2} - rho8*y*z;        	(2)
+        dz/dt = rho9*z + rho10*z^{3} - rho11*z^{2} - rho12*x*z^{3};        	(3)
+
+donde cada rho representa un número real y son los parámetros para el sistema de ecuaciones, y u es la variable de control.
+
+La ecuación (1) representa la tasa de absorción de nutrientes por parte de la población de células sanas en el organismo, la ecuación (2) a la tasa de agotamiento de los nutrientes disponibles dentro del organismo y la ecuación (3) es la tasa de absorción de nutrientes por parte de la población de células cancerígenas. Conforme el sistema opera, la cantidad de nutrientes absorbidos por ambas poblaciones aumenta conforme la cantidad de nutrientes disponibles disminuye; notando que la población de células cancerígenas consume más nutrientes que la población de células sanas, infireindo a que conforme pasa el tiempo la población de células cancerígenas crece a una velocidad más alta que las células sanas. Notesé que, a partir de la tabla de datos, la cantidad de nutrientes en la células cancerígenas se reduce un poco mientras que la de células sanas aumenta un poco cerca de cuando ya casi se agotaron todos los nutrientes disponibles en el organismo. Por lo que, si se aplica una técnica que permita reducir la cantidad de nutrientes disponibles para estas células, debería ser posible reducir su población celular gradualmente.
+
+Por ello, dentro de la ecuación (1) se incluye una variable de control u en la forma de una rampa unitaria. Para esto, se tomó como referencia el tratamiento contra el cáncer a partir del uso de células CAR-T, en donde se toma una pequeña cantidad de células T por parte del organismo infectado, se modifican géneticamente en un laboratorio para que puedan detectar, atacar y destruir células cancerígenas; se múltiplican en masa y se inyectan de vuelta en el organismo para superar en números a la población de células cancerígenas de golpe, atacándolas mientras que, a la vez, reducen la cantidad de nutrientes que tienen disponibles para seguir creciendo en tamaño poblacional. Es por este motivo que en el modelo matemático implementado se refleja como una señal de rampa, ya que se incrementa gradualmente las dosis de células modificadas en el organismo para observar su comportamiento conforme pasan los días, resultando en un intercambio notable entre los tamaños de las células sanas con respecto a las células cancerígenas pasados los 70 días; así como una diferencia en la cantidad de nutrientes restantes en dicho organismo debido a estos cambios.
+
+## Conclusiones
+
 
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
